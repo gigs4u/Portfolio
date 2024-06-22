@@ -25,6 +25,7 @@ export const Contact = () => {
   }
 
   const handleSubmit = async (e) => {
+    alert("Form Submitted for Contacting !");
     e.preventDefault();
     setButtonText("Sending...");
     let response = await fetch("http://localhost:5001/contact", {

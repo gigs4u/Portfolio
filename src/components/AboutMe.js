@@ -13,7 +13,9 @@ const AboutMe = () => {
         <h1>About Me</h1>
        
         <ul>
-    <li>Seasoned software engineer with an MS in Computer Engineering and 4 years of work experience.</li>
+    <li>This section comes from ../Portfolio/src/components/AboutMe.js
+      
+       Seasoned software engineer with an MS in Computer Engineering and 4 years of work experience.</li>
     <p></p>
     <li>Proficient in diverse programming languages and frameworks, including Python, Java, JavaScript, SpringBoot, and React.</li>
     <p></p>

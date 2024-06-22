@@ -35,8 +35,8 @@ app.post('/contact', async (req, res) => {
   console.log(firstName,lastName,email,phone,message)
   try {
     await transporter.sendMail({
-      from: 'vaishnumore@gmail.com', // Sender address
-      to: ['vaishnavimore2397@gmail.com','shubham.birar@gmail.com','vaishnavimore@csu.fullerton.edu'], // List of receivers
+      from: 'paresh.gig@gmail.com', // Sender address
+      to: ['paresh.gig@gmail.com','vaishnavimore@csu.fullerton.edu'], // List of receivers
       subject: 'New Contact Form Submission', // Subject line
       html: `<p>You have a new contact form submission:</p>
              <p><strong>Name:</strong> ${firstName} ${lastName}</p>

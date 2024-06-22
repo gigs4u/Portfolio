@@ -17,11 +17,11 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/vaishnavi-more-b2b481150/"><img src={navIcon1} alt="Icon" /></a>
-              <a href="https://github.com/vaishnavimore23"><img src={git_icon} alt="Icon" /></a>
+              <a href="https://www.linkedin.com/in/paresh-sanghani-69851316/"><img src={navIcon1} alt="Icon" /></a>
+              <a href="https://github.com/gigs4u"><img src={git_icon} alt="Icon" /></a>
               <a href="#"><img src={discord} alt="Icon" /></a>
             </div>
-            <p>Designed with &#128156; by Vaishnavi More</p>
+            <p>Designed with &#128156; by Paresh Sanghani</p>
             <footer>
  
 </footer>
